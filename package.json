@@ -1,0 +1,21 @@
+{
+  "name": "kakaotalk-clone",
+  "version": "1.0.0",
+  "description": "This is a practice project of HTML / CSS cloning Kakaotalk. The project is based on course from Nomadcoders.",
+  "scripts": {
+    "test": "live-server ./web"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hwhang0917/kakaotalk-clone.git"
+  },
+  "author": "Heesang Whang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hwhang0917/kakaotalk-clone/issues"
+  },
+  "homepage": "https://github.com/hwhang0917/kakaotalk-clone#readme",
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}
