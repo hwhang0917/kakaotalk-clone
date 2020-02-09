@@ -17,6 +17,10 @@
   cursor: pointer;
 }
 
+.header .header__icon:hover {
+  opacity: 0.8;
+}
+
 .header .header__header-column {
   display: flex;
   align-items: center;

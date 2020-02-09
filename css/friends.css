@@ -10,4 +10,5 @@
   font-size: 14px;
   opacity: 0.6;
   margin-bottom: 12px;
+  user-select: none;
 }

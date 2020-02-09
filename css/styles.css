@@ -5,6 +5,9 @@
 @import "nav-bar.css";
 @import "friend.css";
 @import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
 
 * {
   box-sizing: border-box;
