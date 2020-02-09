@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "This is a practice project of HTML / CSS cloning Kakaotalk. The project is based on course from Nomadcoders.",
   "scripts": {
-    "test": "live-server ./web"
+    "test": "live-server"
   },
   "repository": {
     "type": "git",
