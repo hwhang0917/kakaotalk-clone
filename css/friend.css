@@ -3,6 +3,12 @@
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+  transition-duration: 0.5s;
+}
+
+.friend:hover {
+  background-color: rgb(0, 0, 0, 0.05);
+  border-radius: 25px;
 }
 
 .friend .friend__avatar {
