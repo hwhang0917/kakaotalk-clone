@@ -20,7 +20,8 @@
 }
 
 .chat-screen {
-  background-color: whitesmoke;
+  margin-top: 10px;
+  background: linear-gradient(#e66465, #9198e5);
   min-height: 100vh;
 }
 
