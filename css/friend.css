@@ -4,6 +4,7 @@
   align-items: center;
   margin-bottom: 10px;
   transition-duration: 0.5s;
+  user-select: none;
 }
 
 .friend:hover {
