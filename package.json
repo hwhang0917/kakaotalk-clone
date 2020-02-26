@@ -5,8 +5,7 @@
   "scripts": {
     "dev:server": "live-server src",
     "build": "parcel build ./src/index.html",
-    "deploy": "gh-pages -d dist",
-    "predeploy": "npm run build"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
