@@ -8,13 +8,14 @@
       src="https://kit.fontawesome.com/3b255314a2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="../css/styles.css" />
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/styles.css" />
     <title>Friends | Kakao Clone</title>
   </head>
   <body>
     <div class="status-bar">
       <div class="status-bar__column">
-        <span class="status-bar__clock">10:22</span>
+        <span class="status-bar__clock" id="jsClock">10:22</span>
       </div>
       <div class="status-bar__column">
         <i class="fas fa-clock"></i>
@@ -165,5 +166,6 @@
     <div class="bigScreen">
       <span class="bigScreen__text">Please make your screen small!</span>
     </div>
+    <script src="./js/clock.js"></script>
   </body>
 </html>

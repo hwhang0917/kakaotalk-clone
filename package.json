@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "This is a practice project of HTML / CSS cloning Kakaotalk. The project is based on course from Nomadcoders.",
   "scripts": {
-    "test": "live-server"
+    "dev:server": "live-server src",
+    "build": "parcel ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -17,5 +18,8 @@
   "homepage": "https://github.com/hwhang0917/kakaotalk-clone#readme",
   "devDependencies": {
     "live-server": "^1.2.1"
+  },
+  "dependencies": {
+    "reset.css": "^2.0.2"
   }
 }
