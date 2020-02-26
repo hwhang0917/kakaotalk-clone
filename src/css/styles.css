@@ -1,15 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700&display=swap");
-@import "reset.css";
-@import "statusbar.css";
-@import "header.css";
-@import "nav-bar.css";
-@import "friend.css";
-@import "friends.css";
-@import "find.css";
-@import "more.css";
-@import "settings.css";
-@import "chat.css";
-@import "mobile.css";
+@import "./reset.css";
+@import "./statusbar.css";
+@import "./header.css";
+@import "./nav-bar.css";
+@import "./friend.css";
+@import "./friends.css";
+@import "./find.css";
+@import "./more.css";
+@import "./settings.css";
+@import "./chat.css";
+@import "./mobile.css";
 
 * {
   box-sizing: border-box;
