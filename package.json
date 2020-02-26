@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "This is a practice project of HTML / CSS cloning Kakaotalk. The project is based on course from Nomadcoders.",
   "scripts": {
-    "dev:server": "live-server src",
-    "build": "parcel build ./src/index.html",
-    "deploy": "gh-pages -d dist"
+    "dev:server": "live-server src"
   },
   "repository": {
     "type": "git",
