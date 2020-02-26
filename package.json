@@ -4,7 +4,9 @@
   "description": "This is a practice project of HTML / CSS cloning Kakaotalk. The project is based on course from Nomadcoders.",
   "scripts": {
     "dev:server": "live-server src",
-    "build": "parcel ./src/index.html"
+    "build": "parcel build ./src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/hwhang0917/kakaotalk-clone#readme",
   "devDependencies": {
+    "cssnano": "^4.1.10",
+    "gh-pages": "^2.2.0",
     "live-server": "^1.2.1"
   },
   "dependencies": {
